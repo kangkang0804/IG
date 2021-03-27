@@ -17,6 +17,8 @@
 		A5195876260F839B003C5F04 /* instagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5195875260F839B003C5F04 /* instagramTests.swift */; };
 		A5195881260F839B003C5F04 /* instagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5195880260F839B003C5F04 /* instagramUITests.swift */; };
 		A584F45E260F8C8D00C59FD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A584F45D260F8C8D00C59FD3 /* GoogleService-Info.plist */; };
+		A584F466260FA4B700C59FD3 /* SignInHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A584F465260FA4B700C59FD3 /* SignInHeaderView.swift */; };
+		A584F46B260FA5C100C59FD3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A584F46A260FA5C100C59FD3 /* Extensions.swift */; };
 		A5CA1612260F877C00E99514 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA1611260F877C00E99514 /* ExploreViewController.swift */; };
 		A5CA161A260F87C500E99514 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA1619260F87C500E99514 /* CameraViewController.swift */; };
 		A5CA161F260F87D000E99514 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA161E260F87D000E99514 /* NotificationsViewController.swift */; };
@@ -37,6 +39,7 @@
 		A5CA1683260F893E00E99514 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA1682260F893E00E99514 /* StorageManager.swift */; };
 		A5CA1688260F894C00E99514 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA1687260F894C00E99514 /* AnalyticsManager.swift */; };
 		A5CA168D260F895600E99514 /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA168C260F895600E99514 /* HapticsManager.swift */; };
+		A5D4E2D4260FAD7C005AC5AF /* IGTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D4E2D3260FAD7C005AC5AF /* IGTextField.swift */; };
 		B197F645F0BEDD808EC1A407 /* Pods_instagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 299AB0D2BD1035DAF12F723E /* Pods_instagramTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +82,8 @@
 		A5195880260F839B003C5F04 /* instagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagramUITests.swift; sourceTree = "<group>"; };
 		A5195882260F839B003C5F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A584F45D260F8C8D00C59FD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A584F465260FA4B700C59FD3 /* SignInHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInHeaderView.swift; sourceTree = "<group>"; };
+		A584F46A260FA5C100C59FD3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A5CA1611260F877C00E99514 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		A5CA1619260F87C500E99514 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		A5CA161E260F87D000E99514 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +104,7 @@
 		A5CA1682260F893E00E99514 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		A5CA1687260F894C00E99514 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
 		A5CA168C260F895600E99514 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		A5D4E2D3260FAD7C005AC5AF /* IGTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextField.swift; sourceTree = "<group>"; };
 		C25208D4759DF450DD71FF50 /* Pods_instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8567F2F10F066095C9C8B48 /* Pods-instagram-instagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagram-instagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-instagram-instagramUITests/Pods-instagram-instagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -198,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				A5195869260F839B003C5F04 /* LaunchScreen.storyboard */,
+				A584F465260FA4B700C59FD3 /* SignInHeaderView.swift */,
+				A5D4E2D3260FAD7C005AC5AF /* IGTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,6 +247,7 @@
 				A5195867260F839B003C5F04 /* Assets.xcassets */,
 				A519585E260F8399003C5F04 /* AppDelegate.swift */,
 				A5195860260F8399003C5F04 /* SceneDelegate.swift */,
+				A584F46A260FA5C100C59FD3 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -543,12 +552,15 @@
 				A5CA1644260F887C00E99514 /* SignUpViewController.swift in Sources */,
 				A5CA165D260F88E200E99514 /* User.swift in Sources */,
 				A5CA161F260F87D000E99514 /* NotificationsViewController.swift in Sources */,
+				A584F466260FA4B700C59FD3 /* SignInHeaderView.swift in Sources */,
 				A5CA1658260F88B900E99514 /* SettingsViewController.swift in Sources */,
+				A5D4E2D4260FAD7C005AC5AF /* IGTextField.swift in Sources */,
 				A5CA167E260F893900E99514 /* DatabaseManager.swift in Sources */,
 				A5CA1667260F88F600E99514 /* Relationship.swift in Sources */,
 				A5CA1662260F88EA00E99514 /* Post.swift in Sources */,
 				A5CA1679260F892200E99514 /* AuthManager.swift in Sources */,
 				A5CA163F260F887400E99514 /* SignInViewController.swift in Sources */,
+				A584F46B260FA5C100C59FD3 /* Extensions.swift in Sources */,
 				A5CA1624260F87DB00E99514 /* ProfileViewController.swift in Sources */,
 				A5CA168D260F895600E99514 /* HapticsManager.swift in Sources */,
 				A519585F260F8399003C5F04 /* AppDelegate.swift in Sources */,
