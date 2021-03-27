@@ -8,7 +8,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = FeedViewController()
+        
+        if AuthManager.instance.isSignedIn {
+            // show the signed in UI
+            window.rootViewController = TabBarController()
+        } else {
+            // show the sign in UI
+            let vc = SignInViewController()
+            let navigationController = UINavigationController(rootViewController: vc)
+            window.rootViewController = navigationController
+        }
         window.makeKeyAndVisible()
         self.window = window
         

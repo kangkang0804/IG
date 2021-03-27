@@ -16,6 +16,7 @@
 		A519586B260F839B003C5F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5195869260F839B003C5F04 /* LaunchScreen.storyboard */; };
 		A5195876260F839B003C5F04 /* instagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5195875260F839B003C5F04 /* instagramTests.swift */; };
 		A5195881260F839B003C5F04 /* instagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5195880260F839B003C5F04 /* instagramUITests.swift */; };
+		A584F45E260F8C8D00C59FD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A584F45D260F8C8D00C59FD3 /* GoogleService-Info.plist */; };
 		A5CA1612260F877C00E99514 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA1611260F877C00E99514 /* ExploreViewController.swift */; };
 		A5CA161A260F87C500E99514 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA1619260F87C500E99514 /* CameraViewController.swift */; };
 		A5CA161F260F87D000E99514 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA161E260F87D000E99514 /* NotificationsViewController.swift */; };
@@ -77,6 +78,7 @@
 		A519587C260F839B003C5F04 /* instagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5195880260F839B003C5F04 /* instagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagramUITests.swift; sourceTree = "<group>"; };
 		A5195882260F839B003C5F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A584F45D260F8C8D00C59FD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A5CA1611260F877C00E99514 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		A5CA1619260F87C500E99514 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		A5CA161E260F87D000E99514 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 		A51958B2260F85BF003C5F04 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A584F45D260F8C8D00C59FD3 /* GoogleService-Info.plist */,
 				A5195867260F839B003C5F04 /* Assets.xcassets */,
 				A519585E260F8399003C5F04 /* AppDelegate.swift */,
 				A5195860260F8399003C5F04 /* SceneDelegate.swift */,
@@ -399,6 +402,7 @@
 			files = (
 				A519586B260F839B003C5F04 /* LaunchScreen.storyboard in Resources */,
 				A5195868260F839B003C5F04 /* Assets.xcassets in Resources */,
+				A584F45E260F8C8D00C59FD3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

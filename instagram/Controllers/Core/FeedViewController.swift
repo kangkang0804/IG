@@ -4,7 +4,8 @@ class FeedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        title = "Insta"
+        view.backgroundColor = .systemBackground
     }
 
 
